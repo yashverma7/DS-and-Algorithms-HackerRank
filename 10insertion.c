@@ -33,6 +33,8 @@ int main(){
     display(arr,size);
     indInsertion(arr,size,element,100,index);
     size+=1;
+    
+   //size is increased so that new element can be inserted within the capactiy
     display(arr,size);
     return 0;
 }
